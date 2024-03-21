@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "shtocks"
+version = "0.1.0"
+description = "train Q-learning model that is trained by learning which combinations of stocks to buy, sell, or hold"
+authors = ["bjornaer <maxemijo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
+networkx = "^3.2.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
